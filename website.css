@@ -61,7 +61,7 @@ body {
 table th {
     text-align: left;   
     background-color: #869960;
-    color: #FFF;
+    color: #33535;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, .4);
 }
 
@@ -78,7 +78,7 @@ border-spacing: 0;
 
 header {
     padding-top: 20px;
-    color: #FFF;
+    color: #33535;
     background-image: url(../Images/us.jpg);
 }
 
@@ -219,10 +219,7 @@ header {
     transform: scale(.92);
 }
 
-:root {
-   --primary-color: #edf2fc;
-   --secondary-color: #212121;
-}
+
 .dark-theme {
    --primary-color: #000106;
    --secondary-color: #FFF;
@@ -238,4 +235,8 @@ header {
 #icon {
  width: 30px;
  cursor: pointer;  
+    :root {
+   --primary-color: #edf2fc;
+   --secondary-color: #212121;
+}
 }
