@@ -219,9 +219,23 @@ header {
     transform: scale(.92);
 }
 
+:root {
+   --primary-color: #edf2fc;
+   --secondary-color: #212121;
+}
+.dark-theme {
+   --primary-color: #000106;
+   --secondary-color: #FFF;
+}
+
+
 .thumb img:hover {
     opacity: 1;
     transform: scale(1) rotate(2deg);
     box-shadow: 0 0 7px rgba(0, 0, 0, .5);
 }
 
+#icon {
+ width: 30px;
+ cursor: pointer;  
+}
